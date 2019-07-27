@@ -1,0 +1,60 @@
+body, html{
+	height:100%;
+}
+body {
+	 background: url('../images/background.jpg') no-repeat center center fixed;
+	 height: 100%;
+	 width:100%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 color:white;
+}
+.wrapper{
+	
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.block{
+	background-color: :rgba(0,0,0);
+	height: 400px;
+	padding-left: 12px;
+	padding-right:12px;
+}
+#contact{
+	background :rgba(31,89,165,0.9);
+	border-radius:25px;
+}
+img{
+	width:400px;
+}
+#skills{
+	background :rgba(11,156,49,0.9);
+	border-radius:25px;
+}
+#about{
+	background :rgba(255,211,0,0.9);
+	border-radius:25px;
+}
+#portfolio {
+	background :rgba(220,48,35,0.9);
+	border-radius:25px;
+}
+#contactClick {
+	position:fixed;
+	display: none;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color :rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor:  pointer;
+	background-size: cover;
+}
+#contacts{
+	background :rgba(31,89,165,0.9);
+}
